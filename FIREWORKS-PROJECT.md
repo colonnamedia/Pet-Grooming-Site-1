@@ -78,8 +78,15 @@ Hero: original photorealistic image generated specifically for a pet-grooming we
 
 Repository: https://github.com/colonnamedia/Pet-Grooming-Site-1
 
-Production preview: to be recorded after Vercel deployment.
+Production preview: https://pet-grooming-site-1.vercel.app/
 
 FireWorks collection: https://fireworks-websitebuilder.com/WebsiteCollection
 
-Commits and final public URLs are recorded after publishing. Required checks: every page returns successfully; header/footer links and query preselection work; desktop and mobile hero crops remain legible; all images load; menu keyboard state works; past dates are blocked; required intake fields validate; the summary uses text-only DOM insertion; no network/storage/upload/payment occurs; document and provider gates stay closed by default; storefront Home and Website Collection cards use the live preview and hero; checkout shows $1,799 build, $499/year primary or $59.99/month Standard hosting, $20/year domain, and optional add-ons separately.
+## Published verification — 2026-10-12
+
+- Template build commit: `3fa3d00236cf015caa5512cdd83805145d625739`.
+- FireWorks catalog commit: `95e106e13a5fb49e896e6c0f564b39aaa2dc9d69` (latest `main` was read immediately before the atomic server/preview update).
+- Vercel production URL returned success and served Home, Services, and Appointment Request. All four optimized WebP assets loaded, desktop hero composition and headline were visually checked, page navigation resolved, and service/provider query selections populated the intake.
+- The production intake accepted only a fictional test, rendered its summary locally, explicitly reported that no request was sent, and reset to the form on reload. The vaccination field remained disabled, the real-provider card remained hidden, and `booking-config.js` retained all three approval/test gates as `false`.
+- Static checks passed JavaScript syntax, unique IDs, internal assets, and the 200 KB image budget; production accessibility trees exposed page titles, headings, alt text, navigation, required form fields, disabled document handling, and the local-only disclosure.
+- FireWorks Home, Website Collection, hero preview, live-demo button, and checkout pricing must be rechecked after the catalog host completes its automatic deployment. Checkout target values: $1,799 build; Standard $499/year primary or $59.99/month; domain $20/year; optional integrations recorded separately.
