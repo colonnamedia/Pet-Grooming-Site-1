@@ -56,7 +56,8 @@ Hosting, domains, and integration work are never discounted with the build.
 
 ## Optional add-ons
 
-- Booking-provider handoff/setup and field mapping: **$299 setup** after provider review
+- Standard booking / appointment integration: **$199 setup** in the FireWorks checkout; provider subscription or usage fees remain separate
+- Custom pet-intake field mapping beyond the standard handoff: **from $299 setup** after provider review
 - Secure vaccination/document workflow: **from $499 setup**, only with approved provider and policies; provider fees separate
 - Deposit/payment connection: **from $299 setup**; processor fees and subscriptions separate
 - CRM routing or automation: **from $299 setup**
@@ -89,4 +90,6 @@ FireWorks collection: https://fireworks-websitebuilder.com/WebsiteCollection
 - Vercel production URL returned success and served Home, Services, and Appointment Request. All four optimized WebP assets loaded, desktop hero composition and headline were visually checked, page navigation resolved, and service/provider query selections populated the intake.
 - The production intake accepted only a fictional test, rendered its summary locally, explicitly reported that no request was sent, and reset to the form on reload. The vaccination field remained disabled, the real-provider card remained hidden, and `booking-config.js` retained all three approval/test gates as `false`.
 - Static checks passed JavaScript syntax, unique IDs, internal assets, and the 200 KB image budget; production accessibility trees exposed page titles, headings, alt text, navigation, required form fields, disabled document handling, and the local-only disclosure.
-- FireWorks Home, Website Collection, hero preview, live-demo button, and checkout pricing must be rechecked after the catalog host completes its automatic deployment. Checkout target values: $1,799 build; Standard $499/year primary or $59.99/month; domain $20/year; optional integrations recorded separately.
+- FireWorks Home and Website Collection both published the card as **Featured** and **Available** under Pet Grooming. The generated hero loaded in the storefront preview, and the in-page live demo rendered the deployed Vercel site.
+- Store checkout resolved to `moss-muzzle-pet-grooming` and displayed **$1,799 one-time**, **$499/year** annual hosting as the primary selection or **$59.99/month**, **$20/year** domain registration, and separately priced optional add-ons. The default annual checkout total was **$2,318** before optional add-ons.
+- Responsive CSS was statically verified at the 980 px and 700 px breakpoints, including stacked content, mobile navigation, hero crop, touch-sized controls, and the fixed mobile CTA. The public deployment was checked in-browser at desktop width; Google PageSpeed's mobile renderer could not resolve the fresh Vercel hostname during this run, so no PageSpeed score is claimed.
